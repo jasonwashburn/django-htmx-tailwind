@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-htmx-tailwind"
+version = "0.1.0"
+description = ""
+authors = ["Jason Washburn <jason.washburn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.5"
+django-compressor = "^4.4"
+pytailwindcss = "^0.2.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+ruff = "^0.0.291"
+djlint = "^1.34.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
